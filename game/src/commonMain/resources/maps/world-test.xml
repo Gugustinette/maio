@@ -1,0 +1,53 @@
+<!-- XML Map / World 1-1 -->
+<map>
+    <!-- Map name -->
+    <name>World 1-1</name>
+
+    <!-- Map size -->
+    <!-- 224 px = 14 -->
+    <height>14</height>
+    <!-- 256 px = 16 -->
+    <width>16</width>
+
+    <!-- Tiles -->
+    <tiles>
+        <!-- Bush -->
+        <tile x="3" y="11" type="BUSH_LEFT" />
+        <tile x="4" y="11" type="BUSH_CENTER" />
+        <tile x="5" y="11" type="BUSH_RIGHT" />
+
+        <!-- Bush -->
+        <tile x="10" y="11" type="BUSH_LEFT" />
+        <tile x="11" y="11" type="BUSH_CENTER" />
+        <tile x="12" y="11" type="BUSH_RIGHT" />
+
+        <!-- Hole in the default ground -->
+        <tile x="8" y="12" type="BACKGROUND" />
+        <tile x="8" y="13" type="BACKGROUND" />
+        <tile x="9" y="12" type="BACKGROUND" />
+        <tile x="9" y="13" type="BACKGROUND" />
+    </tiles>
+
+    <!-- Blocks -->
+    <blocks>
+        <!-- Bricks -->
+        <block x="4" y="9" type="BRICK_TOP" />
+        <block x="5" y="9" type="OBJECT_ON" />
+        <block x="5" y="6" type="BRICK_TOP" />
+        <block x="6" y="9" type="BRICK_TOP" />
+
+        <block x="10" y="8" type="BRICK_TOP" />
+        <block x="11" y="8" type="OBJECT_OFF" />
+        <block x="12" y="8" type="BRICK_TOP" />
+
+        <block x="14" y="11" type="OBSTACLE" />
+        <block x="15" y="11" type="OBSTACLE" />
+        <block x="15" y="10" type="OBSTACLE" />
+    </blocks>
+
+    <!-- Monsters -->
+    <monsters>
+        <!-- Goomba -->
+        <monster x="4" y="0" type="GOOMBA" />
+    </monsters>
+</map>
