@@ -13,7 +13,7 @@ The hierarchy of the sprites contained in the `sprites` folder should be the sam
 
 ## Web version
 
-A web version should be playable at this address : http://test.maio.fr/
+A web version should be playable at this address : https://gugustinette.github.io/maio
 
 ## Launching the project
 
